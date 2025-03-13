@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="body-bg">
+    <nav class="fade-up">
+        <div class="nav-container">
+            <div class="logo">
+                <span style="display: none;">LOGO</span>
+            </div>
+        
+            <style>
+                /* Fade up for all sections */
+.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade up for nav links (each link) */
+.link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* When visible, make them fade up */
+.fade-up.show, 
+.link.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+            </style>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link active"><a href="about.html">About Me</a></div>
+                <div class="link"><a href="project.html">Project</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class='bx bx-menu' id="menu-icon" onclick="toggleMenu()"></i>
+        </div>
+        
+   
+      
+   </nav>
+   
+   
+   <div class="div-content" >
+
+
+    <div class="cont-view fade-up-new animate-1">
+        <img src="me.jpg" alt="" style="height: 75vh; border-radius: 5px; box-shadow: 10px 10px 7px rgba(0,0,0,.3);">
+    </div>
+    
+    <div class="cont-text-view">
+       <div class="text-dispay">
+           <div class="top-text fade-right-new animate-2">
+                <h1>About <b>Me</b></h1>
+           </div>
+           <div class="para-text fade-up-new animate-1">
+                I believe in the power of a well-designed interface to enhance the user experience, drive engagement, and make information easy to access and understand. My approach emphasizes clarity and usability, with an eye for detail and a commitment to the highest standards of functionality.
+           </div>
+       </div>
+    </div>
+    
+
+
+
+    <!---MOBILE VIEW-->
+
+    <div class="mobile-cv">
+        <div class="cont-view-img">
+            <div class="header animate-2">
+                <h1>About <b>Me</b></h1>
+            </div>
+            <div class="para-text-v animate-1">
+                I believe in the power of a well-designed interface to enhance the user experience, drive engagement, and make information easy to access and understand. My approach emphasizes clarity and usability, with an eye for detail and a commitment to the highest standards of functionality.
+            </div>
+            <img src="me.jpg" height="350"class="img-m-cv animate-1" style="margin-left: 10px; box-shadow: 10px 10px 5px rgba(0,0,0,.3);" alt="">
+            <div class="para-text-mv animate-1">
+                I believe in the power of a well-designed interface to enhance the user experience, drive engagement, and make information easy to access and understand. My approach emphasizes clarity and usability, with an eye for detail and a commitment to the highest standards of functionality.
+            </div>
+        </div>
+    </div>
+
+       <div class="dropdown" id="dropdown" style="margin-top: 200px;">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+   </div>
+
+
+   <div class="list-cont-view">
+
+    <div class="list-pad">
+       <div class="left-pad">
+
+        <div class="header-text">
+            <h1 style="font-size: 23px;">Educational Background</h1>
+        </div>
+        
+        <div class="para-pad">
+            <p>
+               <b>Bachelor of Science in Information Technology</b> 
+            </p>
+            <br>
+            <p>
+                A Graduate in CTU-CEBU TECHNOLOGICAL UNIVERSITY (DAANBANTAYAN CAMPUS) (2021-2025)
+            </p>
+            <br>
+            <a href="https://www.ctu.edu.ph/" target="_blank">https://www.ctu.edu.ph/</a>
+        </div>
+       </div>
+       
+       <div class="right-pad">
+        <img src="logo-ctu.png" alt="" height="200px" style="border-radius: 50%;">
+       </div>
+
+    </div>
+
+
+    <div class="list-pad">
+        <div class="left-pad">
+ 
+         <div class="header-text">
+             <h1 style="font-size: 23px;">Professional Experience </h1>
+         </div>
+         
+         <div class="para-pad">
+             <p>
+                 <b>Online English Teacher </b>
+             </p>
+             <br>
+             <p>
+                Harvlo Online Teaching June 10, 2024 – Present Deliver engaging online English language instruction to students of diverse skill levels, fostering effective communication and learning outcomes.
+             </p>
+             <br>
+             <a href="https://harvlo.com" target="_blank">https://harvlo.com/en/</a>
+         </div>
+        </div>
+        
+        <div class="right-pad">
+         <img src="harvlo.jpg" alt="" height="200px" style="border-radius: 50%;">
+        </div>
+ 
+     </div>
+
+     <div class="list-pad">
+        <div class="left-pad">
+ 
+         <div class="header-text">
+             <h1 style="font-size: 23px;">Personal Expercience</h1>
+         </div>
+         
+         <div class="para-pad">
+             <br>
+             <p>
+                Supervisor in Italian Restaurant, Bantayan Island March 5, 2023 – November 30, 2023Oversaw daily restaurant operations, supervised staff, and ensured exceptional customer service, contributing to a seamless and satisfying dining experience.
+             </p>
+             <br>
+         </div>
+        </div>
+        
+        <div class="right-pad">
+         <img src="santage.png" alt="" height="200px" style="border-radius: 50%;">
+        </div>
+ 
+     </div>
+ 
+
+   </div>
+
+
+   <!--MOBILE VIEW LIST-->
+   <div class="mobile-cv-lv">
+        
+    <div class="m-list-pad">
+        <div class="m-img-pad-mv">
+            <img src="logo-ctu.png" alt="" height="150px" style="border-radius: 50%;">
+        </div>
+            <div class="m-text-pad-l">
+                <h1 style="font-size: 23px;">Educational Background</h1>
+                <p>
+                    A Graduate in CTU-CEBU TECHNOLOGICAL UNIVERSITY (DAANBANTAYAN CAMPUS) (2021-2025)
+                 </p>
+                 <a href="https://www.ctu.edu.ph/" target="_blank">https://www.ctu.edu.ph/</a>
+            </div>
+            <div class="m-img-pad-r">
+                <img src="logo-ctu.png" alt="" height="150px" style="border-radius: 50%;">
+            </div>
+        </div>
+
+        <div class="m-list-pad">
+            <div class="m-img-pad-mv">
+                <img src="harvlo.jpg" alt="" height="150px" style="border-radius: 50%;">
+            </div>
+            <div class="m-text-pad-l">
+                <h1 style="font-size: 23px;">Professional Experience </h1>
+                <p>
+                    <b>Online English Teacher </b>
+                </p>
+                <p>
+                    Harvlo Online Teaching June 10, 2024 – Present Deliver engaging online English language instruction to students of diverse skill levels, fostering effective communication and learning outcomes.
+                 </p>
+                 <a href="https://harvlo.com" target="_blank">https://harvlo.com/en/</a>
+            </div>
+            <div class="m-img-pad-r">
+                <img src="harvlo.jpg" alt="" height="150px" style="border-radius: 50%;">
+            </div>
+        </div>  
+
+        <div class="m-list-pad">
+            <div class="m-img-pad-mv">
+                <img src="santage.png" alt="" height="150px" style="border-radius: 50%;">
+            </div>
+            <div class="m-text-pad-l">
+                <h1 style="font-size: 23px;">Personal Expercience</h1>
+                <p>
+                    Supervisor in Italian Restaurant, Bantayan Island March 5, 2023 – November 30, 2023Oversaw daily restaurant operations, supervised staff, and ensured exceptional customer service, contributing to a seamless and satisfying dining experience.    
+                 </p>
+            </div>
+            <div class="m-img-pad-r">
+                <img src="santage.png" alt="" height="150px" style="border-radius: 50%;">
+            </div>
+        </div>  
+
+   </div>
+
+
+
+
+   <div class="div-footer">
+    <div class="icon-center">
+        <a href=""><i class='bx bxl-facebook'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <a href=""><i class='bx bxl-whatsapp'></i></a>
+        <a href=""><i class='bx bxs-phone'></i></a>
+    </div>
+    <h5>Copyright @2025 All right reserved</h5>
+   </div>   
+
+   <script src="script.js"></script>
+
+</body>
+</html>

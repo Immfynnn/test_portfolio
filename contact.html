@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="body-bg">
+    <nav class="fade-up">
+        <div class="nav-container">
+            <div class="logo">
+                <span style="display: none;">LOGO</span>
+            </div>
+        
+            <style>
+                /* Fade up for all sections */
+.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade up for nav links (each link) */
+.link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* When visible, make them fade up */
+.fade-up.show, 
+.link.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+            </style>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About Me</a></div>
+                <div class="link"><a href="project.html">Project</a></div>
+                <div class="link active"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class='bx bx-menu' id="menu-icon" onclick="toggleMenu()"></i>
+        </div>
+        
+   
+      
+   </nav>
+   
+   
+   <div class="div-content" >
+
+
+       <div class="dropdown" id="dropdown">
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Educational Background</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+   </div>
+
+
+
+   
+   <div class="div-footer">
+    <div class="icon-center">
+        <a href=""><i class='bx bxl-facebook'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <a href=""><i class='bx bxl-whatsapp'></i></a>
+        <a href=""><i class='bx bxs-phone'></i></a>
+    </div>
+    <h5>Copyright @2025 All right reserved</h5>
+   </div>   
+   
+</body>
+</html>
